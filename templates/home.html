@@ -3,17 +3,17 @@
 <form class="buttons" method="post">
     <h3>Enter the Chat Room</h3>
     <div>
-        <label for="">Name:</label>
-        <input type="text" placeholder="Pick a name!" name="name" value="{{name}}" />
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Pick a name!" name="name" value="{{ name }}" id="name" />
     </div>
     <div class="join">
-        <input type="text" placeholder="Room Code" name="code" value="{{code}}" />
+        <input type="text" placeholder="Room Code" name="code" value="{{ code }}" id="code" />
         <button type="submit" name="join">Join the Room</button>
     </div>
     <button type="submit" name="create" class="create-btn">Create a Room</button>
     {% if error %}
     <ul class="error">
-        <li> {{error}} </li>
+        <li>{{ error }}</li>
     </ul>
     {% endif %}
 </form>
