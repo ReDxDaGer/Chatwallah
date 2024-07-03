@@ -141,6 +141,11 @@ def disconnect():
     send({"name": name, "message": "has left the room"}, to=room_code)
     print(f"{name} has left the {room_code}")
 
+<<<<<<< HEAD
 
 socketio.run(app , debug=False)
 
+=======
+if __name__ == "__main__":
+    socketio.run(app, debug=False)
+>>>>>>> d2ff34574ee3c4be314360fce46eaac6f131f9da

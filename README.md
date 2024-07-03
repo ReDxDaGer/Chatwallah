@@ -1,4 +1,4 @@
-# Convr
+# Chatwallah
 
 Convr is a Python application that demonstrates how to build a real-time chat room using Flask and SocketIO. This tutorial project is designed to help developers understand the basics of creating a live chat application with Python.
 
